@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -8,864 +9,1113 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+          crossorigin="anonymous">
 
     <style>
 
         body {
-      position: relative;
-    }
+            position: relative;
+        }
 
-    .bg-primary {
-      background-color: #053178 !important;
-    }
+        .bg-primary {
+            background-color: #053178 !important;
+        }
 
-    #head-cover {
-      background-image: url(images/806b17ac-a423-4d49-9481-ac09502a389b.png);
-      background-color: transparent;
-      background-size: cover;
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      margin-top: 56px;
-      height: 1000px;
-      overflow: hidden;
-    }
+        #head-cover {
+            background-image: url(https://img.bagevent.com/resource/20190327/0933532821803.png);
+            background-color: transparent;
+            background-size: cover;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            margin-top: 56px;
+            height: 230px;
+            overflow: hidden;
+        }
 
-    @media (max-width: 767px) {
-      #head-cover {
-        height: 387.188px;
-        min-height: 387.188px;
-      }
+        @media (max-width: 767px) {
+            #head-cover {
+                width:700px;
+                height: 207.101px;
+                /*min-height: 207.101px;*/
+            }
 
-      .container-fluid {
-        padding-right: 0px;
-        padding-left: 0px;
-      }
+            .container-fluid {
+                padding-right: 0px;
+                padding-left: 0px;
+            }
 
-    }
+        }
 
-    @media (max-width: 480px) {
-      #head-cover {
-        height: 207.101px;
-        min-height: 207.101px;
-      }
+        @media (max-width: 480px) {
+            #head-cover {
+                width:480px;
+                height: 107.101px;
+                /*min-height: 207.101px;*/
+            }
 
-      #manager-slogan {
-        display: none;
-      }
-    }
+            #manager-slogan {
+                display: none;
+            }
+        }
 
-    #about {
-      padding-top: 60px;
-      margin-top: 20px;
-    }
+        #about {
+            padding-top: 60px;
+            margin-top: 20px;
+        }
 
-    .title {
-      margin-top: 20px;
-      margin-bottom: 20px;
-    }
+        .title {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
 
-    .manager {
-      position: relative;
-    }
+        .manager {
+            position: relative;
+        }
 
-    .scrollspy-manager {
-      position: relative;
-      height: 510px;
-      margin-top: .5rem;
-      overflow: auto;
-    }
+        .scrollspy-manager {
+            position: relative;
+            height: 510px;
+            margin-top: .5rem;
+            overflow: auto;
+        }
 
-    .speakers-section, .schedule-section, .sponsors-section, .venue-section, .contact-section {
-      padding-top: 60px;
-      padding-bottom: 60px;
-    }
+        .speakers-section, .schedule-section, .sponsors-section, .venue-section, .contact-section {
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
 
-    .about-section {
-      margin-bottom: 50px;
-      background: #ecf0f1;
-    }
+        .about-section {
+            margin-bottom: 50px;
+            background: #ecf0f1;
+        }
 
-    .speakers-section {
-      background: #ecf0f1;
-    }
+        .speakers-section {
+            background: #ecf0f1;
+        }
 
-    .sponsors-section {
+        .sponsors-section {
 
-    }
+        }
 
-    .schedule-section {
-      background: #f8f8f8;
-      margin-bottom: 50px;
-    }
+        .schedule-section {
+            background: #f8f8f8;
+            margin-bottom: 50px;
+        }
 
-    .venue-section {
-      background-color: #ecf0f1;
-    }
+        .venue-section {
+            background-color: #ecf0f1;
+        }
 
-    .contact-section {
-      background-color: #212B36;
-      color: white;
-    }
+        .contact-section {
+            background-color: #212B36;
+            color: white;
+        }
 
-      .wechat-icon {
-        display: none;
-      }
-      h2 {
-          color: gray;
-      }
-      #sponsors ul {
-        list-style: none;
-        padding: 0;
-      }
-      #sponsors li {
-  display: inline;
-  display: inline-block;
-  margin: 20px;
-}
-#sponsors li img {
-  max-height: 100px;
-  max-width: 240px;
-}
+        .wechat-icon {
+            display: none;
+        }
+        h2 {
+            color: gray;
+        }
+        #sponsors ul {
+            list-style: none;
+            padding: 0;
+        }
+        #sponsors li {
+            display: inline;
+            display: inline-block;
+            margin: 20px;
+        }
+        #sponsors li img {
+            max-height: 100px;
+            max-width: 240px;
+        }
 
-.round-image-box {
-    border: 0px;
-}
+        .round-image-box {
+            border: 0px;
+        }
 
-  </style>
+
+    </style>
     <title>第五届中国移动互联网测试开发大会</title>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-mtsc" data-offset="0">
-    <img class="wechat-icon" src="images/bf98584f-07cb-4d48-81d8-adb95fada56e.png">
-    <header>
-        <nav id="navbar-mtsc" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-            <a class="navbar-brand" href="#">MTSC</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+<img class="wechat-icon" src="http://2019.test-china.org/images/bf98584f-07cb-4d48-81d8-adb95fada56e.png">
+<header>
+    <nav id="navbar-mtsc" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="#">MTSC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">关于大会</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#topics-and-speakers">议题和嘉宾</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#schedule">日程安排</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sponsors">赞助单位</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#venue">会议地址</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">联系我们</a>
-                    </li>
-                </ul>
-                <span class="navbar-text">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">关于大会</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#topics-and-speakers">议题和嘉宾</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#schedule">日程安排</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sponsors">赞助单位</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#venue">会议地址</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">联系我们</a>
+                </li>
+            </ul>
+            <span class="navbar-text">
                     <a class="btn btn-danger" href="https://www.bagevent.com/event/2202999">快来抢票</a>
                 </span>
-            </div>
-        </nav>
-    </header>
-
-    <!-- about here -->
-    <div class="container-fluid about-section">
-
-        <div id="head-cover" class="card-deck">
         </div>
-        <div id="about" class="container text-center mx-auto">
+    </nav>
+</header>
+<!-- about here -->
+<div class="container-fluid about-section">
 
-<iframe id="promote_ticket_iframe" width="100%" src="//www.bagevent.com/widget/ticket/2202999?widget=2" frameborder="0" scrolling="no"></iframe>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['BagEventIFrameResize'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        };
-        a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.bagevent.com/resources/js/iframeResizer/iframeResizer.min.js', 'bfr');
-    bfr('iFrameResize', {checkOrigin: false, heightCalculationMethod: 'taggedElement'}, "#promote_ticket_iframe");
-</script>
-
-            <div>
-                <h1 class="title">关于 MTSC 2019</h1>
-                <p class="lead text-left">
-                    MTSC2019 暨第五届中国移动互联网测试开发大会（Mobile Testing Summit China）由国内最大的测试开发技术社区之一 TesterHome
-                    发起的行业会议，聚焦于软件测试及应用质量保障，以交流软件质量标准、保障体系和测试研发技术为目的，议题内容涵盖国内外前沿技术落地、业界工程最佳实践经验等。
-                </p>
+    <div id="head-cover" class="card-deck"> </div>
+    <!--<div ><img src = " https://img.bagevent.com/resource/20190327/0933532821803.png">-->
+    </div>
 
 
-                <p class="lead text-left">
-                    MTSC 大会始于 2015 年，已经成功举办 4 届，从最初的 300 多人到 2018 年的 1500 人，MTSC
-                    测试开发大会已经成功塑造了“落地、务实、有深度”的内容风格和良好口碑，得到测试开发者、互联网一线企业乃至国家工信部的认可和大力支持。
+    <div id="about" class="container text-center mx-auto">
 
-                </p>
-                <p class="lead text-left">
-                    2019 年 6 月，MTSC 将再为中国软件测试行业奉上一场为期 2
-                    天的技术盛宴，议题将包括人工智能，机器学习，区块链等新领域的测试应用和方向，也有质量保障，线上监控等解决方案，以及国内外顶尖大厂的技术分享。
-                </p>
-            </div>
-            <hr />
-            <div>
-                <h1 class="title">关于 TesterHome</h1>
-                <p class="lead text-left">
-                    TesterHome 是国内最大最活跃的测试开发技术社区之一，成立于 2012 年，目前有 3.5 万+ 注册用户，均来自于行业一线企业（互联网 BAT、银行、金融、电商等）。
-                </p>
-                <p class="lead text-left">
-                    TesterHome 已成为互联网领域软件质量保证与测试技术发展的风向标，以推进国内软件测试开源项目发展为己任，同时不遗余力的引入国外测试工具（Appium/STF等）。
-                </p>
-                <p class="lead text-left">
-                    TesterHome 测试技术社区线上累计有近 2万 主题讨论帖，线下在全国各地成功举办过 50次+ 测试交流分享会，并获得良好反响，影响范围 200万+ 人次／年。
-                </p>
-            </div>
-            <hr />
+        <iframe id="promote_ticket_iframe" width="100%" src="//www.bagevent.com/widget/ticket/2202999?widget=2" frameborder="0" scrolling="no"></iframe>
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['BagEventIFrameResize'] = r;
+                i[r] = i[r] || function () {
+                            (i[r].q = i[r].q || []).push(arguments)
+                        };
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.bagevent.com/resources/js/iframeResizer/iframeResizer.min.js', 'bfr');
+            bfr('iFrameResize', {checkOrigin: false, heightCalculationMethod: 'taggedElement'}, "#promote_ticket_iframe");
+        </script>
+    </div>
+</div>
 
-
-            <div id="manager-slogan">
-                <h1 class="title text-center">名企测试经理寄语</h1>
-                <div class="text-left manager">
-                    <div class="row">
-                        <div class="col-2 list-manager-group">
-                            <div id="list-manager" class="list-group">
-                                <a class="list-group-item list-group-item-action" href="#qqdrm">丁如敏</a>
-                                <a class="list-group-item list-group-item-action" href="#baiduyf">严飞</a>
-                                <a class="list-group-item list-group-item-action" href="#meituanwp">王鹏</a>
-                                <a class="list-group-item list-group-item-action" href="#antxwj">许文君 </a>
-                                <a class="list-group-item list-group-item-action" href="#360pxq">彭兴强</a>
-                                <a class="list-group-item list-group-item-action" href="#yiqizuoyeje">基恩</a>
-                                <a class="list-group-item list-group-item-action" href="#dajiangdlw">段利伟</a>
-                                <a class="list-group-item list-group-item-action" href="#huaweishj">宋会娟</a>
-                                <a class="list-group-item list-group-item-action" href="#qnlq">李倩</a>
-                                <a class="list-group-item list-group-item-action" href="#banksw">司文</a>
-                            </div>
-                        </div>
-                        <div class="col-10 list-manager-content">
-                            <div data-spy="scroll" data-target="#list-manager" data-offset="0" class="scrollspy-manager">
-                                <h4 id="qqdrm">腾讯手机QQ浏览器测试负责人 丁如敏</h4>
-                                <p>
-                                    Testerhome论坛让测试人有一个聚会的家，大家在这里学到很多新的技术以及方法，同时推动整个测试行业的发展。希望更多测试技术大牛能到Testerhome论坛分享交流，让更多测试同行收益，预祝明年中国移动互联网测试开发大会MSTC圆满成功。
-                                </p>
-                                <h4 id="baiduyf">百度搜索质量工程团队负责人 严飞</h4>
-                                <p>2019 新年，祝 Testhome 社区越办越红火，期待 MTSC2019 大会能连接更多测开方向上的朋友共同探讨、进步。</p>
-                                <h4 id="meituanwp">美团打车测试负责人 王鹏</h4>
-                                <p>从 2015 年开始关注
-                                    TesterHome，真实的感受到社区发生的变化，在社区学习交流，很高兴结识了这么多靠谱的小伙伴，相信未来会有更多热爱测试技术的小伙伴加入进来，既往不恋，纵情向前，希望社区越办越好。</p>
-                                <h4 id="antxwj">蚂蚁金服人工智能部质量团队负责人 许文君</h4>
-                                <p>TesterHome 社区引领质量行业小伙伴一直在拥抱着行业的变化，从公众号、论坛、线下活动中也得到很多启发。</p>
-                                <h4 id="360pxq">360 高级测试副总监 彭兴强</h4>
-                                <p>TesterHome 已成为引领测试领域发展的一股强大力量，愿社区越办越好，早日成为测试领域的黄埔军校。</p>
-                                <h4 id="yiqizuoyeje">一起作业QA负责人 基恩</h4>
-                                <p>认识 TesterHome 也有 3 个年头了，在这 3
-                                    年里看到社区不断地成长，不断输出经验和知识，感到十分的欣喜和欣慰。“如果对技术不甚了解，你又如何能指出研发写出的代码里存在的风险与问题？”，非常感谢
-                                    TesterHome 提供了这么好的，供大家学习技术知识和经验的场所。社区里的一些好的想法和技术已经被我们在实际工作中运用，祝社区和大家在未来更好的成长。
-                                </p>
-                                <h4 id="dajiangdlw">大疆测试负责人 段利伟</h4>
-                                <p>在 TesterHome 社区了解到了很多测试领域新兴的技术，结识了很多对测试工作有自己独特见解的小伙伴，并且有幸和其中的一部分人成为同事，相信 TesterHome
-                                    一定会培养出更多更优秀的测试人员，成为测试工程师职业发展中的北斗星。</p>
-                                <h4 id="huaweishj">华为终端应用测试负责人 宋会娟</h4>
-                                <p>作为国内首个移动测试交流社区， TesterHome 给测试开发者提供了优质的技术干货和经验分享，希望越来越好！</p>
-                                <h4 id="qnlq">七牛工程效率部负责人 李倩</h4>
-                                <p>TesterHome 社区，测试界的一股清流，祝继续砥砺前行。</p>
-                                <h4 id="banksw">招商银行信用卡中心信息技术部技术经理 司文</h4>
-                                <p>作为 TesterHome 社区的一员，我在社区中倾听到了很多技术的声音，遇到了不少优秀的年轻人，学到很好的测试实践。同时我更加坚信，参与 TesterHome
-                                    社区活动、积极学习测试技术是测试人自我成长的最佳途径。 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
+<div class="container-fluid speakers-section" >
+    <div  class="container text-center mx-auto">
+        <div>
+            <h1 class="title" align="left">关于 MTSC 2019</h1>
+            <p class="lead text-left">
+                MTSC2019 暨第五届中国移动互联网测试开发大会（Mobile Testing Summit China）由国内最大的测试开发技术社区之一 TesterHome
+                发起的行业会议，聚焦于软件测试及应用质量保障，以交流软件质量标准、保障体系和测试研发技术为目的，议题内容涵盖国内外前沿技术落地、业界工程最佳实践经验等。
+            </p>
+            <p class="lead text-left">
+                MTSC 大会始于 2015 年，已经成功举办 4 届，从最初的 300 多人到 2018 年的 1500 人，MTSC
+                测试开发大会已经成功塑造了“落地、务实、有深度”的内容风格和良好口碑，得到测试开发者、互联网一线企业乃至国家工信部的认可和大力支持。
+            </p>
+            <p class="lead text-left">
+                2019 年 6 月，MTSC 将再为中国软件测试行业奉上一场为期 2
+                天的技术盛宴，议题将包括人工智能，机器学习，区块链等新领域的测试应用和方向，也有质量保障，线上监控等解决方案，以及国内外顶尖大厂的技术分享。
+            </p>
         </div>
     </div>
-    <!-- about end -->
+</div>
 
+<div class="container-fluid " >
+    <div  class="container text-center mx-auto">
+        <div >
+            <h1 class="title" align="left">关于 TesterHome</h1>
+            <p class="lead text-left">
+                TesterHome 是国内最大最活跃的测试开发技术社区之一，成立于 2012 年，目前有 3.5 万+ 注册用户，均来自于行业一线企业（互联网 BAT、银行、金融、电商等）。
+            </p>
+            <p class="lead text-left">
+                TesterHome 已成为互联网领域软件质量保证与测试技术发展的风向标，以推进国内软件测试开源项目发展为己任，同时不遗余力的引入国外测试工具（Appium/STF等）。
+            </p>
+            <p class="lead text-left">
+                TesterHome 测试技术社区线上累计有近 2万 主题讨论帖，线下在全国各地成功举办过 50次+ 测试交流分享会，并获得良好反响，影响范围 200万+ 人次／年。
+            </p>
+        </div>
+    </div>
+</div>
 
-     <!-- chairmans here -->
-     <div class="container-fluid chairmans-section" id="chairmans-and-producers">
-
-        <div id="chairmans" class="container text-center mx-auto">
-            <h1 class="title">联席主席</h1>
-
-            <div class="card-deck">
-                <div class="card mb-2 box-shadow round-image-box">
-                    <img class="card-img-top" src="images/a4f62c05-ebb9-4499-a154-41623bc0f1f9.png"
-                        alt="杨春晖">
-                    <div class="card-body">
-                        <h5 class="card-title">杨春晖</h5>
-                        <p class="card-text" style="color: #5CBCD9; font-size: 16px;">工信部电子五所软件中心主任
-                            行业知名专家</p>
-                        <p class="card-text" style="text-align: left; font-size: 14px;">研究员级高工，政府特贴专家，国家嵌入式软件质检中心和基础软硬件性能与可靠性测评工信部重点实验室常务副主任。
-                                长期致力于软件可靠性理论和质量工程技术研究，提出基于可靠性知识的软件测试模型等工程方法，行业知名专家。
-                                </p>
-                    </div>
+<div class="container-fluid speakers-section" >
+    <div  class="container text-center mx-auto">
+        <div id="manager-slogan">
+    <h1 class="title text-left"  >名企测试经理寄语</h1>
+    <div class="text-left manager">
+        <div class="row">
+            <div class="col-2 list-manager-group">
+                <div id="list-manager" class="list-group">
+                    <a class="list-group-item list-group-item-action" href="#qqdrm">丁如敏</a>
+                    <a class="list-group-item list-group-item-action" href="#baiduyf">严飞</a>
+                    <a class="list-group-item list-group-item-action" href="#meituanwp">王鹏</a>
+                    <a class="list-group-item list-group-item-action" href="#antxwj">许文君 </a>
+                    <a class="list-group-item list-group-item-action" href="#360pxq">彭兴强</a>
+                    <a class="list-group-item list-group-item-action" href="#yiqizuoyeje">基恩</a>
+                    <a class="list-group-item list-group-item-action" href="#dajiangdlw">段利伟</a>
+                    <a class="list-group-item list-group-item-action" href="#huaweishj">宋会娟</a>
+                    <a class="list-group-item list-group-item-action" href="#qnlq">李倩</a>
+                    <a class="list-group-item list-group-item-action" href="#banksw">司文</a>
                 </div>
-
-                <div class="card mb-2 box-shadow  round-image-box">
-                    <img class="card-img-top" src="images/8463d806-2a7c-43d0-b9eb-8acafe384890.png"
-                        alt="陈振宇">
-                        <div class="card-body">
-                            <h5 class="card-title">陈振宇</h5>
-                            <p class="card-text"  style="color: #5CBCD9; font-size: 16px;" >南京大学软件学院教授、博导</p>
-                            <p class="card-text" style="text-align: left; font-size: 14px;">慕测平台 ( mooctest.net )创始人、全国大学生软件测试大赛发起人，主要从事智能软件工程研究，长期专注于软件测试产学研。
-                                    </p>
-                        </div>
-                </div>
-
-                <div class="card mb-2 box-shadow round-image-box">
-                    <img class="card-img-top" src="images/40cc363c-f606-4fde-9c5b-2d9a8dddbd57.png"
-                        alt="朱少民">
-                        <div class="card-body">
-                            <h5 class="card-title">朱少民</h5>
-                            <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">同济大学软件学院特聘教授</p>
-                            <p class="card-text" style="text-align: left; font-size: 14px;">国内知名测试专家，曾任思科（中国）软件有限公司 QA 高级总监，并获得多项省市科技进步奖，出版了十多部著作，代表作有《软件测试方法和技术》、《全程软件测试》等，目前专注于测试过程改进、自动化测试等。</p>
-                        </div>
-                </div>
-
-                <div class="card mb-2 box-shadow  round-image-box">
-                    <img class="card-img-top" src="images/d5ac623c-9d17-4754-839d-9b357d767621.png"
-                        alt="黄延胜">
-                        <div class="card-body">
-                            <h5 class="card-title">黄延胜</h5>
-                            <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">TesterHome
-                                社区联合创始人</p>
-                            <p class="card-text" style="text-align: left; font-size: 14px;">先后工作于阿里、百度、雪球等公司，开源项目AppCrawler作者。TesterHome 社区联合创始人，霍格沃兹测试学院首任院长， 测吧（北京）公司创始人。</p>
-                        </div>
-                </div>
-
             </div>
-            <div class="card-deck">
-                <div class="card mb-2 box-shadow  round-image-box">
-                    <img class="card-img-top" src="images/11133b50-ddf5-418e-84f9-7489607180c7.png"
-                        alt="方 亮">
-                        <div class="card-body">
-                            <h5 class="card-title">方 亮</h5>
-                            <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">腾讯 WeTest
-                                负责人</p>
-                            <p class="card-text" style="text-align: left; font-size: 14px;">10 多年软件研发经验，腾讯游戏质量专家，曾任腾讯移动游戏精品化战略的质量总负责人，在网络游戏研发领域拥有丰富的研发和管理经验。现任腾讯质量管理通道委员。</p>
-                        </div>
-                </div>
-
-                <div class="card mb-2 box-shadow  round-image-box">
-                    <img class="card-img-top" src="images/05da64c5-cbe8-41c7-aedd-e63346853c14.png"
-                        alt="崔婧">
-                        <div class="card-body">
-                            <h5 class="card-title">崔婧（青灵）</h5>
-                            <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">淘宝技术质量负责人</p>
-                            <p class="card-text" style="text-align: left; font-size: 14px;">资深测试开发专家，十余年阿里质量体系建设经验，在客户端、服务端、算法、IOT等领域的质量保障工作上有深入的研究和丰富的成果产出</p>
-                        </div>
-                </div>
-
-                <div class="card mb-2 box-shadow  round-image-box">
-                    <img class="card-img-top" src="images/7f0b763e-f2de-4fc5-9de7-42610f73a6a9.png"
-                        alt="严 飞">
-                        <div class="card-body">
-                            <h5 class="card-title">严 飞</h5>
-                            <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">百度搜索质量工程团队负责人</p>
-                            <p class="card-text" style="text-align: left; font-size: 14px;">2010 年加入百度，现属百度搜索公司 - 质量部门 - 质量工程团队（负责人），专注于产品研发质量及效率提升工作。</p>
-                        </div>
-                </div>
-
-                <div class="card mb-2 box-shadow  round-image-box">
-                    <img class="card-img-top" src="images/2f19bc3c-b338-4b66-ac1d-aeef427e6916.png"
-                        alt="周志彬">
-                        <div class="card-body">
-                            <h5 class="card-title">周志彬</h5>
-                            <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">小米手机测试部总监</p>
-                            <p class="card-text" style="text-align: left; font-size: 14px;">十余年手机测试从业经验，就职于Motorola 和小米，组建小米手机测试部，在手机测试体系，流程控制，软件质量管控及人才培养体系的建设上有丰富的经验。现任手机测试部总监。</p>
-                        </div>
+            <div class="col-10 list-manager-content">
+                <div data-spy="scroll" data-target="#list-manager" data-offset="0" class="scrollspy-manager">
+                    <h4 id="qqdrm">腾讯手机QQ浏览器测试负责人 丁如敏</h4>
+                    <p>
+                        Testerhome论坛让测试人有一个聚会的家，大家在这里学到很多新的技术以及方法，同时推动整个测试行业的发展。希望更多测试技术大牛能到Testerhome论坛分享交流，让更多测试同行收益，预祝明年中国移动互联网测试开发大会MSTC圆满成功。
+                    </p>
+                    <h4 id="baiduyf">百度搜索质量工程团队负责人 严飞</h4>
+                    <p>2019 新年，祝 Testhome 社区越办越红火，期待 MTSC2019 大会能连接更多测开方向上的朋友共同探讨、进步。</p>
+                    <h4 id="meituanwp">美团打车测试负责人 王鹏</h4>
+                    <p>从 2015 年开始关注
+                        TesterHome，真实的感受到社区发生的变化，在社区学习交流，很高兴结识了这么多靠谱的小伙伴，相信未来会有更多热爱测试技术的小伙伴加入进来，既往不恋，纵情向前，希望社区越办越好。</p>
+                    <h4 id="antxwj">蚂蚁金服人工智能部质量团队负责人 许文君</h4>
+                    <p>TesterHome 社区引领质量行业小伙伴一直在拥抱着行业的变化，从公众号、论坛、线下活动中也得到很多启发。</p>
+                    <h4 id="360pxq">360 高级测试副总监 彭兴强</h4>
+                    <p>TesterHome 已成为引领测试领域发展的一股强大力量，愿社区越办越好，早日成为测试领域的黄埔军校。</p>
+                    <h4 id="yiqizuoyeje">一起作业QA负责人 基恩</h4>
+                    <p>认识 TesterHome 也有 3 个年头了，在这 3
+                        年里看到社区不断地成长，不断输出经验和知识，感到十分的欣喜和欣慰。“如果对技术不甚了解，你又如何能指出研发写出的代码里存在的风险与问题？”，非常感谢
+                        TesterHome 提供了这么好的，供大家学习技术知识和经验的场所。社区里的一些好的想法和技术已经被我们在实际工作中运用，祝社区和大家在未来更好的成长。
+                    </p>
+                    <h4 id="dajiangdlw">大疆测试负责人 段利伟</h4>
+                    <p>在 TesterHome 社区了解到了很多测试领域新兴的技术，结识了很多对测试工作有自己独特见解的小伙伴，并且有幸和其中的一部分人成为同事，相信 TesterHome
+                        一定会培养出更多更优秀的测试人员，成为测试工程师职业发展中的北斗星。</p>
+                    <h4 id="huaweishj">华为终端应用测试负责人 宋会娟</h4>
+                    <p>作为国内首个移动测试交流社区， TesterHome 给测试开发者提供了优质的技术干货和经验分享，希望越来越好！</p>
+                    <h4 id="qnlq">七牛工程效率部负责人 李倩</h4>
+                    <p>TesterHome 社区，测试界的一股清流，祝继续砥砺前行。</p>
+                    <h4 id="banksw">招商银行信用卡中心信息技术部技术经理 司文</h4>
+                    <p>作为 TesterHome 社区的一员，我在社区中倾听到了很多技术的声音，遇到了不少优秀的年轻人，学到很好的测试实践。同时我更加坚信，参与 TesterHome
+                        社区活动、积极学习测试技术是测试人自我成长的最佳途径。
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <!-- chairmans end -->
-    <div class="container-fluid speakers-section" id="chairmans1-and-speakers">
 
-        <div id="chairmans1" class="container text-center mx-auto">
-            <h1 class="title">出品人</h1>
-
-            <div class="card-deck">
-                <div class="card mb-2 box-shadow round-image-box">
-                    <img class="card-img-top" src="images/Jonathan.jpg"
-                         alt="Jonathan">
-                    <div class="card-body">
-                        <h5 class="card-title">Jonathan</h5>
-                        <p class="card-text" style="color: #5CBCD9; font-size: 16px;">开源测试框架Appium项目负责人</p>
-
-                    </div>
-                </div>
-
-                <div class="card mb-2 box-shadow  round-image-box">
-                    <img class="card-img-top" src="images/liyonggang.png"
-                         alt="李永刚">
-                    <div class="card-body">
-                        <h5 class="card-title">李永刚</h5>
-                        <p class="card-text"  style="color: #5CBCD9; font-size: 16px;" >美团酒店旅游测试团队负责人</p>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card mb-2 box-shadow round-image-box">
-                    <img class="card-img-top" src="images/dingrumin.jpeg"
-                         alt="丁如敏">
-                    <div class="card-body">
-                        <h5 class="card-title">丁如敏</h5>
-                        <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">腾讯手机QQ浏览器测试负责人</p>
-                    </div>
-                </div>
-
-                <div class="card mb-2 box-shadow  round-image-box">
-                    <img class="card-img-top" src="images/hutao.jpeg"
-                         alt="胡涛">
-                    <div class="card-body">
-                        <h5 class="card-title">胡涛</h5>
-                        <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">网易云音乐测试总监</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+</div>
     </div>
+</div>
+<!-- about end -->
 
-    <!-- speakers here -->
-    <div class="container-fluid producers-section" id="topics-and-producers">
+<div class="container-fluid chairmans-section" id="chairmans1-and-speakers">
 
+    <div id="chairmans1" class="container text-center mx-auto">
+        <h1 class="title"  align="left">出品人</h1>
 
-        <div id="speakers" class="container text-center mx-auto">
-            <h1 class="title">演讲嘉宾及主题</h1>
-            <p>课题投递，请邮件至 topic@testerhome.com</p>
+        <div class="card-deck">
+            <div class="card mb-2 box-shadow round-image-box">
+                <img class="card-img-top" src="http://2019.test-china.org/images/Jonathan.jpg"
+                     alt="Jonathan">
+                <div class="card-body">
+                    <h5 class="card-title">Jonathan</h5>
+                    <p class="card-text" style="color: #5CBCD9; font-size: 16px;">开源测试框架Appium项目负责人</p>
 
-            <div class="card-deck">
-                <div class="card mb-2 box-shadow">
-                    <img class="card-img-top" src="images/2ae41e9b-550f-4f87-819e-b882da4ac70f.jpg"
-                        alt="泠乐">
-                    <div class="card-body">
-                        <h5 class="card-title">泠乐</h5>
-                        <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">手淘技术质量部测试开发专家</p>
-                        <p class="card-text" style="text-align: left; font-size: 14px;">负责手淘基础架构测试工作， 手淘体验优化项目测试负责人。</p>
-                    </div>
                 </div>
-
-                <div class="card mb-2 box-shadow">
-                    <img class="card-img-top" src="images/bbad7b9b-87d5-4491-93d6-96bfd983c40e.jpg"
-                        alt="许肖">
-                    <div class="card-body">
-                        <h5 class="card-title">许肖</h5>
-                        <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">手淘技术质量部高级测试开发工程师</p>
-                        <p class="card-text" style="text-align: left; font-size: 14px;">负责手淘基础架构的测试工作，2018双十一客户端版本验收负责人。</p>
-                    </div>
-                </div>
-
-                <div class="card mb-2 box-shadow">
-                    <img class="card-img-top" src="images/8e326e74-d4c5-44c0-ad3c-7a30d0f3e2b9.jpg"
-                        alt="翟帅">
-                    <div class="card-body">
-                        <h5 class="card-title">翟帅</h5>
-                        <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">蚂蚁金服无线开发专家</p>
-                        <p class="card-text" style="text-align: left; font-size: 14px;">支付宝无线开发专家，目前主要负责蚂蚁金服iOS覆盖率的建设与维护以及基于图像识别的自动化测试方案建设。</p>
-                    </div>
-                </div>
-
-                <div class="card mb-2 box-shadow">
-                    <img class="card-img-top" src="images/a610b5b5-af96-48b2-b3d2-adfaccd9f89a.jpg"
-                        alt="周为">
-                    <div class="card-body">
-                        <h5 class="card-title">周为</h5>
-                        <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">蚂蚁金服高级开发工程师</p>
-                        <p class="card-text" style="text-align: left; font-size: 14px;">支付宝高级开发工程师，目前主要负责蚂蚁金服客户端覆盖率后端计算服务，和通用覆盖率产品的建设。</p>
-                    </div>
-                </div>
-
-
-
             </div>
-            <div class="card-deck">
-                
 
-                <div class="card mb-2 box-shadow">
-                    <img class="card-img-top" src="images/35a3717e-836a-40f4-b170-ca8f1859b41f.jpg"
-                        alt="董沐">
-                    <div class="card-body">
-                        <h5 class="card-title">董沐</h5>
-                        <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">小米人工智能部软件工程师</p>
-                        <p class="card-text" style="text-align: left; font-size: 14px;">每天对小爱同学说话几十万句的男人，在小米 AI 负责各语音模型及 SDK 的验收和评测。曾效力过旷视科技研究院，做过人脸识别相关的算法评测。对 AI 的算法评测有一定了解。
-                        </p>
-                    </div>
+            <div class="card mb-2 box-shadow  round-image-box">
+                <img class="card-img-top" src="http://2019.test-china.org/images/liyonggang.png"
+                     alt="李永刚">
+                <div class="card-body">
+                    <h5 class="card-title">李永刚</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;" >美团酒店旅游测试团队负责人</p>
+                    </p>
                 </div>
-
-                <div class="card mb-2 box-shadow">
-                    <img class="card-img-top" src="images/deae8bda-97ce-4d14-b19c-15e6a1572b5e.jpg"
-                        alt="高学文">
-                    <div class="card-body">
-                        <h5 class="card-title">高学文</h5>
-                        <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">360Qtest测试团队负责人</p>
-                        <p class="card-text" style="text-align: left; font-size: 14px;">极致做事，简单做人，一个测试老兵</p>
-                    </div>
-                </div>
-
-                <div class="card mb-2 box-shadow">
-                    <img class="card-img-top" src="images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
-                        alt="头像">
-                    <div class="card-body">
-                        <p class="card-text">虚位以待</p>
-                    </div>
-                </div>
-
-                <div class="card mb-2 box-shadow">
-                    <img class="card-img-top" src="images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
-                        alt="头像">
-                    <div class="card-body">
-                        <p class="card-text">虚位以待</p>
-                    </div>
-                </div>
-
             </div>
-        </div>
 
-        <div class="container text-center mx-auto">
-            <h1 class="title">议题</h1>
-            <table class="table">
-                <tr>
-                    <td  class="rowspan">阿里巴巴</td>
-                    <td class="time">手机淘宝客户端全链路验收</td>
-                </tr>
-                <tr>
-                    <td rowspan="2" class="rowspan">蚂蚁金服</td>
-                    <td class="time">进化的覆盖率--代码时实染色系统</td>
-                </tr>
-                <tr>
-                    <td class="time">蚂蚁国际的质量左移之路与不得不说的代码门禁</td>
-                </tr>
-                <tr>
-                    <td  class="rowspan">腾讯</td>
-                    <td class="time">腾讯Web UI自动化测试平台实践</td>
-                </tr>
-                <tr>
-                    <td  rowspan="2"  class="rowspan">360</td>
-                    <td class="time">如何构建和提升测试团队的软实力</td>
-                </tr>
-                <tr>
-                    <td class="time">安全能力SDK交付质量保证实践</td>
-                </tr>
-                <tr>
-                    <td  class="rowspan">蔚来汽车</td>
-                    <td class="time">蔚来汽车车联网云端测试与持续集成方案</td>
-                </tr>
-                <tr>
-                    <td rowspan="3" class="rowspan">小米</td>
-                    <td class="time">小爱同学语音模型评测</td>
-                </tr>
-                <tr>
-                    <td class="time">可视化编程技术在移动UI自动化中的应用</td>
-                </tr>
-                <tr>
-                    <td class="time">安卓Rom 持续集成及小米云测平台实践</td>
-                </tr>
+            <div class="card mb-2 box-shadow round-image-box">
+                <img class="card-img-top" src="http://2019.test-china.org/images/dingrumin.jpeg"
+                     alt="丁如敏">
+                <div class="card-body">
+                    <h5 class="card-title">丁如敏</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">腾讯手机QQ浏览器测试负责人</p>
+                </div>
+            </div>
 
-                <tr>
-                    <td rowspan="2" class="rowspan">有赞</td>
-                    <td class="time">有赞资损防控体系</td>
-                </tr>
-                <tr>
-                    <td class="time">有赞全链路压测实践</td>
-                </tr>
-                <tr>
-                    <td rowspan="2" class="rowspan">VIPKID</td>
-                    <td class="time">“流量回放”在多耦合系统重构中的实践之路</td>
-                </tr>
-                <tr>
-                    <td class="time">千万级约课系统自动化压测实践</td>
-                </tr>
-                <tr>
-                    <td  class="rowspan">安居客</td>
-                    <td class="time">安居客QA的技术转型之路</td>
-                </tr>
-                <tr>
-                    <td  class="rowspan">苏宁易购</td>
-                    <td class="time">苏宁易购亿万规模性能测试实践之SQL性能调优</td>
-                </tr>
-                <tr>
-                    <td  class="rowspan">微医</td>
-                    <td class="time">微医多维一体化监控平台实践</td>
-                </tr>
-                <tr>
-                    <td  class="rowspan">转转</td>
-                    <td class="time">电商业务测试方案与实战落地</td>
-                </tr>
-                <tr>
-                    <td  class="rowspan">转转</td>
-                    <td class="time">电商业务测试方案与实战落地</td>
-                </tr>
-                <tr>
-                    <td  class="rowspan">字节跳动</td>
-                    <td class="time">国际化机架建设与出海产品测试经验分享</td>
-                </tr>
-                <tr>
-                    <td  class="rowspan">游族</td>
-                    <td class="time">游族服务端专项测试</td>
-                </tr>
-                <tr>
-                    <td  class="rowspan">AppetizerIO</td>
-                    <td class="time">App测试数据的高级分析和TestOps</td>
-                </tr>
-            </table>
-
-        </div>
-
-        <div class="container text-center mx-auto">
-            <h1 class="title">议题范围</h1>
-            <img class="card-img-top" src="images/ce63e390-6b94-47fd-b055-1a1a84528265.png"
-                alt="议题范围">
-        </div>
-    </div>
-    <!-- speakers end -->
-
-    <!-- schedule here -->
-    <div class="container-fluid schedule-section">
-        <div id="schedule" class="container text-center mx-auto">
-            <h1 class="title">日程安排</h1>
-            <table class="table">
-                <tr>
-                    <th colspan="3">6/28/2019-6/29/2019
-                    </th>
-                </tr>
-                <tr>
-                    <td rowspan="3" class="rowspan">上午</td>
-                    <td class="time">08:00 - 09:00</td>
-                    <td>签到入场</td>
-                </tr>
-
-                <tr>
-                    <td class="time">09:00 - 9:30</td>
-                    <td>开幕仪式，嘉宾致辞</td>
-                </tr>
-
-                <tr>
-                    <td class="time">09:30 - 12:00</td>
-                    <td>课题待定</td>
-                </tr>
-                <tr>
-                    <td rowspan="1" class="rowspan">中午</td>
-                    <td class="time">12:00 - 13:00</td>
-                    <td>酒店午餐</td>
-                </tr>
-                <tr>
-                    <td rowspan="6" class="rowspan">下午</td>
-                    <td class="time">13:00 - 18:00</td>
-                    <td>下午课题</td>
-                </tr>
-            </table>
+            <div class="card mb-2 box-shadow  round-image-box">
+                <img class="card-img-top" src="http://2019.test-china.org/images/hutao.jpeg"
+                     alt="胡涛">
+                <div class="card-body">
+                    <h5 class="card-title">胡涛</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">网易云音乐测试总监</p>
+                </div>
+            </div>
 
         </div>
     </div>
-    <!-- schedule end -->
+</div>
+<!-- chairmans here -->
+<div class="container-fluid speakers-section" id="chairmans-and-producers">
 
-    <!-- sponsors here -->
-    <div class="container-fluid sponsors-section">
-        <div id="sponsors" class="container text-center mx-auto">
-            <h1 class="title">赞助单位</h1>
-            <a class="btn btn-primary" href="mailto:bd@testerhome.com?subject=申请赞助商">虚位以待</a>
+    <div id="chairmans" class="container text-center mx-auto">
+        <h1 class="title"  align="left">联席主席</h1>
 
-            <div>
-                <h2 class="title">合作伙伴</h2>
+        <div class="card-deck">
+            <div class="card mb-2 box-shadow round-image-box">
+                <img class="card-img-top" src="http://2019.test-china.org/images/a4f62c05-ebb9-4499-a154-41623bc0f1f9.png"
+                     alt="杨春晖">
+                <div class="card-body">
+                    <h5 class="card-title">杨春晖</h5>
+                    <p class="card-text" style="color: #5CBCD9; font-size: 16px;">工信部电子五所软件中心主任
+                        行业知名专家</p>
+                </div>
+            </div>
 
-                
+            <div class="card mb-2 box-shadow  round-image-box">
+                <img class="card-img-top" src="http://2019.test-china.org/images/8463d806-2a7c-43d0-b9eb-8acafe384890.png"
+                     alt="陈振宇">
+                <div class="card-body">
+                    <h5 class="card-title">陈振宇</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;" >南京大学软件学院教授、博导</p>
+                </div>
+            </div>
 
-                <ul>
+            <div class="card mb-2 box-shadow round-image-box">
+                <img class="card-img-top" src="http://2019.test-china.org/images/40cc363c-f606-4fde-9c5b-2d9a8dddbd57.png"
+                     alt="朱少民">
+                <div class="card-body">
+                    <h5 class="card-title">朱少民</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">同济大学软件学院特聘教授</p>
+                </div>
+            </div>
 
-                        <li>
-                                <a href="http://www.ituring.com.cn/">
-                                    <img style="max-height: 240px;
-                                    " class="card-img-top" src="images/8ba46819-44ff-4b7f-a58f-85b3a3f78820.jpg"
-                                        alt="图灵">
-                                </a>
-                        </li>
+            <div class="card mb-2 box-shadow  round-image-box">
+                <img class="card-img-top" src="http://2019.test-china.org/images/d5ac623c-9d17-4754-839d-9b357d767621.png"
+                     alt="黄延胜">
+                <div class="card-body">
+                    <h5 class="card-title">黄延胜</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">TesterHome
+                        社区联合创始人</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="card-deck">
+            <div class="card mb-2 box-shadow  round-image-box">
+                <img class="card-img-top" src="http://2019.test-china.org/images/11133b50-ddf5-418e-84f9-7489607180c7.png"
+                     alt="方 亮">
+                <div class="card-body">
+                    <h5 class="card-title">方 亮</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">腾讯 WeTest
+                        负责人</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow  round-image-box">
+                <img class="card-img-top" src="http://2019.test-china.org/images/05da64c5-cbe8-41c7-aedd-e63346853c14.png"
+                     alt="崔婧">
+                <div class="card-body">
+                    <h5 class="card-title">崔婧（青灵）</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">淘宝技术质量负责人</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow  round-image-box">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7f0b763e-f2de-4fc5-9de7-42610f73a6a9.png"
+                     alt="严 飞">
+                <div class="card-body">
+                    <h5 class="card-title">严 飞</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">百度搜索质量工程团队负责人</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow  round-image-box">
+                <img class="card-img-top" src="http://2019.test-china.org/images/2f19bc3c-b338-4b66-ac1d-aeef427e6916.png"
+                     alt="周志彬">
+                <div class="card-body">
+                    <h5 class="card-title">周志彬</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">小米手机测试部总监</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- chairmans end -->
 
 
-                        <li>
-                                <a href="http://test.360.cn/">
-                                    <img style="max-height: 240px;
-                                    " class="card-img-top" src="images/d0c98ae1-aaf6-4cbf-9c57-b0e9b371c36a.png"
-                                        alt="qtest">
-                                </a>
-                        </li>
 
-                        <li>
-                                <a href="https://www.csdn.net/">
-                                    <img style="max-width: 300px;
-                                    max-height: 130px;" class="card-img-top" src="images/csdn.jpg"
-                                        alt="csdn">
-                                </a>
-                        </li>
+<div class="container text-center mx-auto">
+    <h1 class="title"  align="left">议题范围</h1>
+    <img class="card-img-top" src="http://2019.test-china.org/images/ce63e390-6b94-47fd-b055-1a1a84528265.png"
+         alt="议题范围">
+</div>
 
-                        <li>
-                                <a href="https://juejin.im/">
-                                    <img class="card-img-top" src="images/a5922501-ec3b-45fb-85e8-eff8bee0bfa6.png"
-                                        alt="掘金">
-                                </a>
-                        </li>
+<!-- speakers here -->
+<div class="container-fluid producers-section" >
 
-                        <li>
-                                <a href="https://www.ucloud.cn/" target="_blank" rel="nofollow">
-                                    <img style="max-width: 300px;
+    <div class="container text-center mx-auto">
+        <h1 class="title"  align="left">高新领域方向</h1>
+        <table class="table">
+            <tr>
+                <td  class="rowspan">小米</td>
+                <td class="time">小爱同学语音模型评测</td>
+                <td class="time">董沐</td>
+
+            </tr>
+            <tr>
+                <td  class="rowspan">蔚来汽车</td>
+                <td class="time" >蔚来汽车车联网云端测试与持续集成方案</td>
+                <td class="time">刘春明</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">优酷</td>
+                <td class="time">用户数据驱动优酷体验提升</td>
+                <td class="time">闫佳阳</td>
+            </tr>
+            <tr>
+                <td  rowspan="2"  class="rowspan">爱奇艺</td>
+                <td class="time">爱奇艺推荐系统质量保证体系</td>
+                <td class="time"></td>
+            </tr>
+            <tr>
+                <td class="time">基于深度学习的UI异常检测</td>
+                <td class="time"></td>
+            </tr>
+            <tr>
+                <td  class="rowspan">京东</td>
+                <td class="time">算法在测试中的实践——如何进行自测评估</td>
+                <td class="time">樊宇</td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="rowspan">百度</td>
+                <td class="time">智能设备硬件准入标准建设</td>
+                <td class="time">郑林</td>
+            </tr>
+        </table>
+    </div>
+    <div  class="container text-center mx-auto">
+        <h1 class="title"  align="left">演讲嘉宾</h1>
+
+        <div class="card-deck">
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/2ae41e9b-550f-4f87-819e-b882da4ac70f.jpg"
+                     alt="泠乐">
+                <div class="card-body">
+                    <h5 class="card-title">泠乐</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">手淘技术质量部测试开发专家</p>
+                    <p class="card-text" style="text-align: left; font-size: 14px;">负责手淘基础架构测试工作， 手淘体验优化项目测试负责人。</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/bbad7b9b-87d5-4491-93d6-96bfd983c40e.jpg"
+                     alt="许肖">
+                <div class="card-body">
+                    <h5 class="card-title">许肖</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">手淘技术质量部高级测试开发工程师</p>
+                    <p class="card-text" style="text-align: left; font-size: 14px;">负责手淘基础架构的测试工作，2018双十一客户端版本验收负责人。</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/8e326e74-d4c5-44c0-ad3c-7a30d0f3e2b9.jpg"
+                     alt="翟帅">
+                <div class="card-body">
+                    <h5 class="card-title">翟帅</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">蚂蚁金服无线开发专家</p>
+                    <p class="card-text" style="text-align: left; font-size: 14px;">支付宝无线开发专家，目前主要负责蚂蚁金服iOS覆盖率的建设与维护以及基于图像识别的自动化测试方案建设。</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/a610b5b5-af96-48b2-b3d2-adfaccd9f89a.jpg"
+                     alt="周为">
+                <div class="card-body">
+                    <h5 class="card-title">周为</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">蚂蚁金服高级开发工程师</p>
+                    <p class="card-text" style="text-align: left; font-size: 14px;">支付宝高级开发工程师，目前主要负责蚂蚁金服客户端覆盖率后端计算服务，和通用覆盖率产品的建设。</p>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="card-deck">
+
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/35a3717e-836a-40f4-b170-ca8f1859b41f.jpg"
+                     alt="董沐">
+                <div class="card-body">
+                    <h5 class="card-title">董沐</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">小米人工智能部软件工程师</p>
+                    <p class="card-text" style="text-align: left; font-size: 14px;">每天对小爱同学说话几十万句的男人，在小米 AI 负责各语音模型及 SDK 的验收和评测。曾效力过旷视科技研究院，做过人脸识别相关的算法评测。对 AI 的算法评测有一定了解。
+                    </p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/deae8bda-97ce-4d14-b19c-15e6a1572b5e.jpg"
+                     alt="高学文">
+                <div class="card-body">
+                    <h5 class="card-title">高学文</h5>
+                    <p class="card-text"  style="color: #5CBCD9; font-size: 16px;">360Qtest测试团队负责人</p>
+                    <p class="card-text" style="text-align: left; font-size: 14px;">极致做事，简单做人，一个测试老兵</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="container-fluid speakers-section" >
+
+    <div class="container text-center mx-auto">
+        <h1 class="title"  align="left">服务端测试方向</h1>
+        <table class="table">
+            <tr>
+                <td  rowspan="2"  class="rowspan">VIPKID</td>
+                <td class="time">“流量回放”在多耦合系统重构中的实践之路</td>
+                <td class="time">谢林</td>
+            </tr>
+            <tr>
+                <td class="time">千万级约课系统自动化压测实践</td>
+                <td class="time">宁浩</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">苏宁</td>
+                <td class="time">苏宁易购亿万规模性能测试实践之SQL性能调优</td>
+                <td class="time">杨婧</td>
+            </tr>
+        </table>
+    </div>
+    <div  class="container text-center mx-auto">
+        <h1 class="title"  align="left">演讲嘉宾</h1>
+        <div class="card-deck">
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid producers-section" >
+
+    <div class="container text-center mx-auto">
+        <h1 class="title"  align="left">移动测试方向</h1>
+        <table class="table">
+            <tr>
+                <td  rowspan="2"  class="rowspan">蚂蚁金服</td>
+                <td class="time">进化的覆盖率-代码实时染色系统</td>
+                <td class="time">周为、翟帅</td>
+            </tr>
+            <tr>
+                <td class="time">移动测试2.0+</td>
+                <td class="time">乐舟</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">手淘</td>
+                <td class="time">手淘客户端全链路验收</td>
+                <td class="time">韩锷</td>
+
+            </tr>
+            <tr>
+                <td  rowspan="2"  class="rowspan">小米</td>
+                <td class="time">安卓Rom 持续集成及小米云测平台实践</td>
+                <td class="time">刘斌</td>
+            </tr>
+            <tr>
+                <td class="time">可视化编程技术在移动UI自动化中的应用</td>
+                <td class="time">张海峰</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">360</td>
+                <td class="time">安全能力SDK交付质量保证实践</td>
+                <td class="time">刘春勇</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">AppetizerIO</td>
+                <td class="time">APP测试数据的高级分析和TestOps</td>
+                <td class="time">夏鸣远</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">小红书</td>
+                <td class="time">小红书app性能自动化测试平台</td>
+                <td class="time">汤伟奇</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">Intel</td>
+                <td class="time">Intel实时视频质量评估测试框架解析和开源之路</td>
+                <td class="time">张琰彬</td>
+            </tr>
+
+        </table>
+    </div>
+    <div  class="container text-center mx-auto">
+        <h1 class="title"  align="left">演讲嘉宾</h1>
+        <div class="card-deck">
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="container-fluid speakers-section" >
+    <div class="container text-center mx-auto">
+        <h1 class="title"  align="left">游戏测试方向</h1>
+        <table class="table">
+            <tr>
+                <td rowspan="2" class="rowspan">腾讯</td>
+                <td class="time">天美质量管理-系列议题</td>
+            </tr>
+            <tr>
+                <td class="time">画面异常检测的三阶段及AI实践</td>
+            </tr>
+        </table>
+    </div>
+    <div  class="container text-center mx-auto">
+        <h1 class="title"  align="left">演讲嘉宾</h1>
+        <div class="card-deck">
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid producers-section" id="topics-and-producers">
+    <div class="container text-center mx-auto">
+        <h1 class="title"  align="left">质量保障方向</h1>
+        <table class="table">
+            <tr>
+                <td  class="rowspan">有赞</td>
+                <td class="time">有赞资损防控体系</td>
+                <td class="time">万伟</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">微医</td>
+                <td class="time">微医多维一体化监控平台实践</td>
+                <td class="time">蒋刚毅</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">360</td>
+                <td class="time">如何构建测试团队的软实力</td>
+                <td class="time">高学文</td>
+
+            </tr>
+            <tr>
+                <td  class="rowspan">转转</td>
+                <td class="time">电商业务测试方案与实战落地</td>
+                <td class="time">田西西</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">优酷</td>
+                <td class="time">优酷视频生产质量保障体系</td>
+                <td class="time">党高峰</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">字节跳动</td>
+                <td class="time">国际化机架建设与出海产品测试经验分享</td>
+                <td class="time">黄治</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">安居客</td>
+                <td class="time">安居客QA的技术转型之路</td>
+                <td class="time">卞伟</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">蚂蚁金服</td>
+                <td class="time">蚂蚁国际的质量左移之路与不得不说的代码门禁</td>
+                <td class="time">飞麦</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">汽车之家</td>
+                <td class="time">看得见的质量——质量罗盘</td>
+                <td class="time">朱媛媛</td>
+            </tr>
+            <tr>
+                <td  class="rowspan">陆金所</td>
+                <td class="time">陆金所造数服务</td>
+                <td class="time"></td>
+            </tr>
+
+        </table>
+    </div>
+    <div  class="container text-center mx-auto">
+        <h1 class="title"  align="left">演讲嘉宾</h1>
+        <div class="card-deck">
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+            <div class="card mb-2 box-shadow">
+                <img class="card-img-top" src="http://2019.test-china.org/images/7b8b4e6a-f9f0-4c74-bf49-c277f1fb33e5.jpg"
+                     alt="头像">
+                <div class="card-body">
+                    <p class="card-text">虚位以待</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+<!-- speakers end -->
+
+<!-- schedule here -->
+<div class="container-fluid schedule-section">
+    <div id="schedule" class="container text-center mx-auto">
+        <h1 class="title">日程安排</h1>
+        <table class="table">
+            <tr>
+                <th colspan="3">6/28/2019-6/29/2019
+                </th>
+            </tr>
+            <tr>
+                <td rowspan="3" class="rowspan">上午</td>
+                <td class="time">08:00 - 09:00</td>
+                <td>签到入场</td>
+            </tr>
+
+            <tr>
+                <td class="time">09:00 - 9:30</td>
+                <td>开幕仪式，嘉宾致辞</td>
+            </tr>
+
+            <tr>
+                <td class="time">09:30 - 12:00</td>
+                <td>课题待定</td>
+            </tr>
+            <tr>
+                <td rowspan="1" class="rowspan">中午</td>
+                <td class="time">12:00 - 13:00</td>
+                <td>酒店午餐</td>
+            </tr>
+            <tr>
+                <td rowspan="6" class="rowspan">下午</td>
+                <td class="time">13:00 - 18:00</td>
+                <td>下午课题</td>
+            </tr>
+        </table>
+
+    </div>
+</div>
+<!-- schedule end -->
+
+<!-- sponsors here -->
+<div class="container-fluid sponsors-section">
+    <div id="sponsors" class="container text-center mx-auto">
+        <h1 class="title">赞助单位</h1>
+        <a class="btn btn-primary" href="mailto:bd@testerhome.com?subject=申请赞助商">虚位以待</a>
+
+        <div>
+            <h2 class="title">合作伙伴</h2>
+
+
+
+            <ul>
+
+                <li>
+                    <a href="http://www.ituring.com.cn/">
+                        <img style="max-height: 240px;
+                                    " class="card-img-top" src="http://2019.test-china.org/images/8ba46819-44ff-4b7f-a58f-85b3a3f78820.jpg"
+                             alt="图灵">
+                    </a>
+                </li>
+
+
+                <li>
+                    <a href="http://test.360.cn/">
+                        <img style="max-height: 240px;
+                                    " class="card-img-top" src="http://2019.test-china.org/images/d0c98ae1-aaf6-4cbf-9c57-b0e9b371c36a.png"
+                             alt="qtest">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.csdn.net/">
+                        <img style="max-width: 300px;
+                                    max-height: 130px;" class="card-img-top" src="http://2019.test-china.org/images/csdn.jpg"
+                             alt="csdn">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://juejin.im/">
+                        <img class="card-img-top" src="http://2019.test-china.org/images/a5922501-ec3b-45fb-85e8-eff8bee0bfa6.png"
+                             alt="掘金">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.ucloud.cn/" target="_blank" rel="nofollow">
+                        <img style="max-width: 300px;
                             max-height: 130px;" src="http://user-assets.sxlcdn.com/images/69677/FsbJ24VACMvq914MDTRno_zj9ieu.jpg?imageMogr2/strip/auto-orient/thumbnail/720x1440%3E/quality/90!/interlace/1/format/jpeg">
-                                </a>
-                            </li>
+                    </a>
+                </li>
 
-                        <li>
-                                <a href="http://www.itdks.com/">
-                                    <img class="card-img-top" src="images/ea92caa2-15cc-4a40-86d4-bc9021e904aa.png"
-                                        alt="大咖说">
-                                </a>
-                        </li>
-                        
+                <li>
+                    <a href="http://www.itdks.com/">
+                        <img class="card-img-top" src="http://2019.test-china.org/images/ea92caa2-15cc-4a40-86d4-bc9021e904aa.png"
+                             alt="大咖说">
+                    </a>
+                </li>
 
-                        <li>
-                                <a href="http://www.hzbook.com/">
-                                    <img class="card-img-top" src="images/0abe7a76-10d3-4f38-a3cb-4d834d7f9379.png"
-                                        alt="华章">
-                                </a>
-                        </li>
-        
-                        <li>
-                                <a href="http://www.epubit.com.cn/" target="_blank" rel="nofollow">
-                                    <img style="max-width: 300px;
+
+                <li>
+                    <a href="http://www.hzbook.com/">
+                        <img class="card-img-top" src="http://2019.test-china.org/images/0abe7a76-10d3-4f38-a3cb-4d834d7f9379.png"
+                             alt="华章">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="http://www.epubit.com.cn/" target="_blank" rel="nofollow">
+                        <img style="max-width: 300px;
                         max-height: 130px;" src="http://2017.test-china.org/img/sponsors/%E5%BC%82%E6%AD%A5%E7%A4%BE%E5%8C%BA.png">
-                                </a>
-                            </li>
-      
-
-                    <li>
-                        <a href="https://mp.weixin.qq.com/s/KMmiAzjq5WxT3Y6RnIJZ9Q">
-                            <img class="card-img-top" src="images/2403f44e-4622-4203-924e-04ef623b2f7c.jpg"
-                                alt="朱少民">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://istester.com/">
-                            <img class="card-img-top" src="images/a4761d15-1f41-4d73-b434-78225bcfb147.png"
-                                alt="IDO老徐">
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="http://www.51cto.com/">
-                            <img class="card-img-top" src="images/51cto.png"
-                                 alt="51cto">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.oschina.net/">
-                            <img class="card-img-top" src="images/oschina.jpg"
-                                 alt="oschina">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.ciotimes.com/bdtxh/">
-                            <img class="card-img-top" src="images/cioapp.jpeg"
-                                 alt="ciotimes">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.cctime.com/">
-                            <img class="card-img-top" src="images/cctime.gif"
-                                 alt="cctime">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.newbnews.com/">
-                            <img class="card-img-top" src="images/newbnews.jpeg"
-                                 alt="newbnews">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://segmentfault.com/">
-                            <img class="card-img-top" src="images/segmentfault.gif"
-                                 alt="newbnews">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.bagevent.com/">
-                            <img class="card-img-top" src="images/bagevent.jpg"
-                                 alt="newbnews">
-                        </a>
-                    </li>
+                    </a>
+                </li>
 
 
-                </ul>
-            </div>
-            <hr>
-            <div class="card">
-                <h2 class="title">去年赞助商</h2>
-                <img class="card-img" src="images/9a2dc53e-1aa2-4372-b28b-b525132891fd.png"
-                    alt="赞助商">
-            </div>
+                <li>
+                    <a href="https://mp.weixin.qq.com/s/KMmiAzjq5WxT3Y6RnIJZ9Q">
+                        <img class="card-img-top" src="http://2019.test-china.org/images/2403f44e-4622-4203-924e-04ef623b2f7c.jpg"
+                             alt="朱少民">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://istester.com/">
+                        <img class="card-img-top" src="http://2019.test-china.org/images/a4761d15-1f41-4d73-b434-78225bcfb147.png"
+                             alt="IDO老徐">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="http://www.51cto.com/">
+                        <img class="card-img-top" src="http://2019.test-china.org/images/51cto.png"
+                             alt="51cto">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.oschina.net/">
+                        <img class="card-img-top" src="http://2019.test-china.org/images/oschina.jpg"
+                             alt="oschina">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.ciotimes.com/bdtxh/">
+                        <img class="card-img-top" src="http://2019.test-china.org/images/cioapp.jpeg"
+                             alt="ciotimes">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.cctime.com/">
+                        <img class="card-img-top" src="http://2019.test-china.org/images/cctime.gif"
+                             alt="cctime">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.newbnews.com/">
+                        <img class="card-img-top" src="http://2019.test-china.org/images/newbnews.jpeg"
+                             alt="newbnews">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://segmentfault.com/">
+                        <img class="card-img-top" src="http://2019.test-china.org/images/segmentfault.gif"
+                             alt="newbnews">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.bagevent.com/">
+                        <img class="card-img-top" src="http://2019.test-china.org/images/bagevent.jpg"
+                             alt="newbnews">
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+        <hr>
+        <div class="card">
+            <h2 class="title">去年赞助商</h2>
+            <img class="card-img" src="http://2019.test-china.org/images/9a2dc53e-1aa2-4372-b28b-b525132891fd.png"
+                 alt="赞助商">
         </div>
     </div>
+</div>
 
-    <!-- venue here -->
-    <div class="container-fluid venue-section">
-        <div id="venue" class="container text-center mx-auto">
-            <h1 class="title">大会地址</h1>
-            <p class="font-italic">2019 年 6 月 28-29 日</p>
-            <p class="font-italic">北京朝阳区北辰北路 8 号 北京·国际会议中心</p>
-            <div class="card">
-                <img class="card-img" src="images/9ecdbb77-76c9-4640-8347-e268f770d4b7.png"
-                    alt="大会地址">
-            </div>
+<!-- venue here -->
+<div class="container-fluid venue-section">
+    <div id="venue" class="container text-center mx-auto">
+        <h1 class="title">大会地址</h1>
+        <p class="font-italic">2019 年 6 月 28-29 日</p>
+        <p class="font-italic">北京朝阳区北辰北路 8 号 北京·国际会议中心</p>
+        <div class="card">
+            <img class="card-img" src="http://2019.test-china.org/images/9ecdbb77-76c9-4640-8347-e268f770d4b7.png"
+                 alt="大会地址">
+        </div>
+
+    </div>
+</div>
+
+<!-- venue end -->
+
+<!-- contact here -->
+<div class="container-fluid contact-section">
+    <div id="contact" class="container text-center mx-auto">
+        <h1 class="title">联系我们</h1>
+        <p class="font-italic">购票及赞助请随时联系我们</p>
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="http://2019.test-china.org/images/0ea5bbe0-3dac-4b6b-bef3-da990e8c3281.png"
+                     alt="Generic placeholder image" width="140" height="140">
+                <h2>联系人</h2>
+                <p>刘女士</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="http://2019.test-china.org/images/2e77ce8e-4896-4719-993f-d1d14e177765.png"
+                     alt="微信" width="140" height="140">
+                <h4>微信/电话</h4>
+                <p>18810532482</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="rounded-circle" src="http://2019.test-china.org/images/fc206888-5f6b-4f5c-bb2d-9627049eb913.png"
+                     alt="邮箱" width="140" height="140">
+                <h2>邮箱</h2>
+                <p>bd@testerhome.com</p>
+            </div><!-- /.col-lg-4 -->
 
         </div>
     </div>
+</div>
 
-    <!-- venue end -->
-
-    <!-- contact here -->
-    <div class="container-fluid contact-section">
-        <div id="contact" class="container text-center mx-auto">
-            <h1 class="title">联系我们</h1>
-            <p class="font-italic">购票及赞助请随时联系我们</p>
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="rounded-circle" src="images/0ea5bbe0-3dac-4b6b-bef3-da990e8c3281.png"
-                        alt="Generic placeholder image" width="140" height="140">
-                    <h2>联系人</h2>
-                    <p>刘女士</p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="rounded-circle" src="images/2e77ce8e-4896-4719-993f-d1d14e177765.png"
-                        alt="微信" width="140" height="140">
-                    <h4>微信/电话</h4>
-                    <p>18810532482</p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <img class="rounded-circle" src="images/fc206888-5f6b-4f5c-bb2d-9627049eb913.png"
-                        alt="邮箱" width="140" height="140">
-                    <h2>邮箱</h2>
-                    <p>bd@testerhome.com</p>
-                </div><!-- /.col-lg-4 -->
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 </body>
 
